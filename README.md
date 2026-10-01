@@ -1,8 +1,8 @@
-# AZ / Codex local-pull bridge
+# ChatGPT dot / Codex bridge
 
-A reusable skill and packet ledger for exchanging delegated tasks between a registered AZ conversation and a human-selected local Codex chat.
+A reusable skill and packet ledger for exchanging delegated tasks between a registered ChatGPT dot conversation and a human-selected local Codex chat.
 
-"AZ" means the operator's designated assistant conversation. This is an independent integration package; it is not an official OpenAI product or a general bot messaging API.
+[A dot](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot) is an always-on agent in ChatGPT. "AZ" was the original operator's personal dot name and remains the protocol's assistant-role label for compatibility. You can register your own dot without renaming it. This is an independent integration package; it is not an official OpenAI product or a general bot messaging API.
 
 When cloud-to-local dispatch is unavailable but local Codex can read AZ and send messages back, the local chat pulls designated requests, executes authorized work with the appropriate domain skill, persists its result, and returns it. AZ acknowledges receipt.
 
@@ -31,7 +31,7 @@ Protocol details: [references/protocol.md](references/protocol.md).
 Operator sequence: [docs/operator.md](docs/operator.md).
 Verification scope: [docs/testing.md](docs/testing.md).
 
-The repository name is `az-codex-bridge`; the installed skill directory is `communicating-with-az`. Protocol `az-codex/1` uses this raw-file SHA-256:
+The repository name is `chatgpt-dot-codex-bridge`; the compatible installed skill directory remains `communicating-with-az`. Protocol `az-codex/1` uses this raw-file SHA-256:
 
 ```text
 a6a033b18963df6dfcf6f49428ec6d05545642c807f2da775f05a1002e4a62c2
