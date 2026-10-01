@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+private/
+runtime/
+evidence/
+route.json
+ledger.json
+*.lock
+*.tmp
+*.recovery
+.DS_Store
+*.swp
+*.swo
