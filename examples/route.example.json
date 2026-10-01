@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "protocol": "az-codex/1",
+  "transport": "local_pull",
+  "source": {
+    "thread_id": "REPLACE_REGISTERED_AZ_THREAD_ID",
+    "host_id": "REPLACE_SOURCE_HOST",
+    "participant": "az"
+  },
+  "receiver": {
+    "thread_id": "REPLACE_HUMAN_SELECTED_LOCAL_THREAD_ID",
+    "host_id": "REPLACE_LOCAL_HOST",
+    "participant": "codex"
+  },
+  "contract_path": "REPLACE_PRIVATE_INSTALLED_CONTRACT_PATH",
+  "contract_sha256": "REPLACE_EXACT_FILE_BYTE_SHA256",
+  "ledger_path": "REPLACE_PRIVATE_LEDGER_PATH",
+  "evidence_directory": "REPLACE_PRIVATE_EVIDENCE_DIRECTORY",
+  "authority": {
+    "kind": "direct_human_delegation",
+    "scope": "REPLACE_EXACT_AUTHORIZED_SCOPE",
+    "references": [
+      "REPLACE_VERIFIED_HUMAN_INSTRUCTION_REFERENCE"
+    ]
+  },
+  "poll": {
+    "boundary_source_item_id": null,
+    "continuation": null,
+    "page_limit": 6
+  },
+  "heartbeat": {
+    "id": null,
+    "status": "UNCONFIGURED"
+  }
+}
